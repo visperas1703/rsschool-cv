@@ -16,6 +16,12 @@ Hello, I am a juniour frontend developer from St.Petersburg, now i live and work
 * Figma
 
 ## Code
+```
+function helloWorld(){
+  const greet = "Hello, World!";
+  console.log (greet);
+}
+```
 
 ## Experience
 ### 2018 - 2022
