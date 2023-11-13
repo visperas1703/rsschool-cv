@@ -8,3 +8,13 @@
 ###  About me ###
 Hello, I am juniour frontend-developer from St.Petersburg, now i live and work in Samarkand, Uzbekistan.
 I have experience of working in a team in an international company, and running my own business.Development is not a new field for me, I have already done development in the field of shipbuilding. I am confident in my success, as I strive for an absolute understanding of the issue.
+### Skills ###
++ HTML
++ CSS
++ Javascript
++ Photoshop
++ Figma
+### Education ###
++ **2018-2022** St. Petersburg State Marine Technical University-maritime infrastructure and ships engineer - in progress
++ **2019** Ego Translating Company - English for financinal department (A2)
++ **2012-2016** Saint Petersburg State Agrarian University - Water biological resources and aquaculture - bachelor
