@@ -16,3 +16,10 @@
     border: 3px solid rgb(206, 3, 3);
     margin: 50px 50px 50px;
 }
+
+/*cv*/
+body {
+	background-color:  rgb(21, 23, 25);
+    background-size: cover;
+    color: white;
+}
