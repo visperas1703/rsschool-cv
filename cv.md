@@ -44,28 +44,48 @@ I have experience of working in a team in an international company, and running 
 
 ### Code ###
 
-  
+```
+function binarySearch(arr, target) {
+
+    let left = 0;
+    let right = arr.length - 1;
+
+    while (left <= right) {
+        let mid = Math.floor((left + right) / 2);
+        
+        if (arr[mid] === target) {
+            return mid;
+        }
+
+        if (arr[mid] > target) {
+            right = mid - 1;
+        } 
+
+        else {
+        left = mid + 1;
+        }
+}
+
+return -1;
+
+}
+```
 
 ### Education ###
 
-+  **2018-2022**
-St. Petersburg State Marine Technical University-maritime infrastructure and ships engineer - not finished
++  **2018-2022** St. Petersburg State Marine Technical University-maritime infrastructure and ships engineer - not finished
 
-+  **2019**
-Ego Translating Company - English for financinal department (A2)
++  **2019** Ego Translating Company - English for financinal department (A2)
 
-+  **2012-2016**
-Saint Petersburg State Agrarian University - Water biological resources and aquaculture - bachelor
++  **2012-2016** Saint Petersburg State Agrarian University - Water biological resources and aquaculture - bachelor
 
   
 
 ### Work experience ###
 
-+  **2018-2022**
-Rocco Forte Hotels - Store manager
++  **2018-2022** Rocco Forte Hotels - Store manager
 
-+  **2024-for now**
-Yandex - AI Trainer
++  **2024-for now** Yandex - AI Trainer
 
   
 
