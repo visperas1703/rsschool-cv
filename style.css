@@ -51,8 +51,10 @@ body{
 }
 
 .container{
-	margin-left: 300px;
-	margin-right: 300px;
+	width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+    box-sizing: border-box; 
 }
 
 header{
@@ -67,15 +69,46 @@ header{
 
 .cv-photo{
 	margin-top: 90px;
+	margin-right: 50px ;
 	height: 450px;
 	width: auto;
+	border: #fdfab5 solid 2px;
 }
 
 .header-text{
+	display: flex;
+	flex-direction: column;
 	margin-top: 90px;
 	background-color: #d9a851;
 	width: 880px;
 	height: 450px;
+	border: #fdfab5 solid 2px;
 }
 
-/*test commit*/
+h1{
+	font-size: 64px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin: 25px 55px;
+}
+
+h2{
+	font-size: 42px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    margin-left: 55px;
+}
+
+.about-header{
+	font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin: 55px 0px 0px 55px;
+}
+
+.about-text{
+	font-size: 22px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin: 25px 55px;
+}
