@@ -64,7 +64,7 @@ function binarySearch(arr, target) {
         else {
         left = mid + 1;
         }
-}
+    }
 
 return -1;
 
