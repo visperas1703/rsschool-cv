@@ -150,10 +150,31 @@ nav{
 	flex-direction: column;
 }
 
-.contacts-header{
+.contacts-header-contacts{
 	font-size: 28px;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
+    margin-top: 45px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+}
+
+.contacts-header-skills{
+	font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-top: 7px;
+    margin-left: 73px;
+    margin-bottom: 30px;
+}
+
+.contacts-header-english{
+	font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-top: 7px;
+    margin-left: 64px;
+    margin-bottom: 30px;
 }
 
 .contacts-text{
@@ -162,16 +183,19 @@ nav{
     font-family: "Open Sans", sans-serif;
 }
 
+
 ul.contacts-text {
 	list-style: none; 
 	padding: 0; 
   }
 
   ul.contacts-text li {
-	position: relative; 
-	padding-left: 24px; 
-	margin-bottom: 10px; 
-  }
+	position: relative;
+    padding-left: 14px;
+    padding-right: 5px;
+    margin-bottom: 35px;
+    margin-left: 7px;
+}
 
   ul.contacts-text li::before {
 	content: ''; 
@@ -188,11 +212,71 @@ ul.contacts-text {
 	font-size: 28px;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
-    margin: 55px 0px 0px 55px;
+    margin: 45px 0px 10px 55px;
 }
 
+
 .base-block-text{
-	font-size: 20px;
+	font-size: 22px;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
+    margin: 25px 55px;
+}
+
+code{
+	font-size: 20px;
+}
+
+.date-numbers{
+	font-size: 22px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 5px;
+}
+
+.links{
+	margin-top: -8px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+a{
+	font-size: 22px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+	color: rgb(20, 20, 26);
+	margin: 5px 55px;
+}
+
+a:hover{
+	color: rgb(87, 87, 87);
+}
+
+.education{
+	margin-top: -15px;
+}
+
+.experience{
+	margin-top: 10px;
+}
+
+.code{
+	margin-top: 3px;
+}
+
+/*footer*/
+
+.rs{
+	margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9a851;
+    width: 1170px;
+    height: 80px;
+    border: #fdfab5 solid 2px;
+}
+
+.a_rs, .git {
+	padding-top: 24px;
 }
